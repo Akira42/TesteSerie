@@ -1,0 +1,95 @@
+Resposta Pergunta 1:
+
+	let arrayDivSete = [];
+
+	for(let i = 0; 100 >= i; i++){
+		if(i % 7 === 0) {
+			arrayDivSete.push(i);
+		}
+	}
+
+	console.log(arrayDivSete);
+
+Resposta Pergunta 2:
+
+	function repetirTexto(texto, vezes) {
+		let textoRepetido = '';
+
+		for(let i = 1; i <= vezes; i++) {
+			textoRepetido += texto;
+
+			if(i < vezes) {
+				textoRepetido += ', ';
+			}
+		}
+
+		console.log(textoRepetido);
+	}
+
+	repetirTexto('Teste', 8);
+
+Resposta Pergunta 3:
+    document.querySelector('.pai').appendChild( document.querySelector('.filho') );
+
+Resposta Pergunta 4:
+    const paragrafos = document.querySelectorAll('div > p');
+    
+	//resposta 4.1
+    paragrafos[1].textContent = 'Texto alterado';
+	
+    //resposta 4.2
+    paragrafos[2].classList.add('last');
+
+Resposta Pergunta 5: 
+    function maiorDeIdade(idade) {
+		console.log(idade >= 18 ? "maior de idade" : "menor de idade");
+	}
+
+	maiorDeIdade(18);
+	maiorDeIdade(17);
+
+Resposta Pergunta 6:  
+	var obj = {
+		nomeObj: 'Mouse',
+		pesoObj: '150g'
+	}
+
+	function modificaObj(objeto) {
+		objeto.nomeObj = 'Teclado';
+		objeto.pesoObj = '500g';
+				
+		const array = [objeto];
+		console.log(array);
+	}
+
+	modificaObj(obj);
+
+Resposta Pergunta 7:
+    const txt = 'Eu quero trabalhar na Seri.e Design';
+			
+	const txtInvertidoExclamacao = txt.replace(/ /g, '!').split('').reverse().join('');
+	const ultimaPalavra = txt.split(' ');
+	const qntCaracteres = txt.length;
+	const tipoVar = typeof txtInvertidoExclamacao;
+
+	console.log(`Resposta 7.1 \n Texto com exclamação invertido: \n ${txtInvertidoExclamacao}`);
+	console.log(`Resposta 7.2 \n ${ultimaPalavra.at(-1)}`);
+	console.log(`Resposta 7.3 \n ${qntCaracteres} caracteres`);
+	console.log(`Resposta 7.4 \n ${tipoVar} `);
+
+Resposta Pergunta 8:
+    document.querySelectorAll('div').forEach(function(item, index, arr){
+		arr[index].setAttribute('data-id', index)
+    });
+
+Resposta Pergunta 9:
+    document.querySelector('.content > ul > li ').addEventListener("click", function clickCategoria() {
+		this.querySelector('.subcontainer ul').style.display = 'block';
+
+		this.closest('.content').classList.add('active');
+		this.querySelector('.subcontainer').classList.add('active');
+	});
+
+Resposta Pergunta 10:
+    Alternativa B.
+    

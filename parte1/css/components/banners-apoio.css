@@ -1,0 +1,95 @@
+.banners-apoio-container {
+    display:flex;
+    flex-wrap: wrap;
+    background: var(--black);
+}
+
+.banners-apoio-item {
+    flex: 0 0 50%;
+    width: 50%;
+    position: relative;
+    display:block;
+    overflow: hidden;
+    margin-top: -1px;
+}
+
+.banners-apoio-item img {
+    width: 100%;
+    transition: .5s;
+    display:block
+}
+
+.banners-apoio-item:hover img {
+    transform: scale(1.05);
+    filter: blur(3px);
+}
+
+.banners-apoio-item-txt {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    width: 100%;
+}
+
+.banners-apoio-item-txt > h3 {
+    letter-spacing: 0.24em;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 1rem;
+}
+
+.banners-apoio-item-txt > span {
+    letter-spacing: 0.24em;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    position:relative;
+}
+
+.banners-apoio-item-txt > span:after{
+    content:'';
+    position:absolute;
+    background-image: url("data:image/svg+xml,%3Csvg width='17' height='17' viewBox='0 0 17 17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.5 8.5H12.5' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10 5.5L13 8.5L10 11.5' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    width: 16px;
+    height: 16px;
+    transition: 0.3s;
+    background-repeat:no-repeat;
+}
+
+.banners-apoio-item:hover .banners-apoio-item-txt > span:after{
+    margin-left: 10px;
+}
+
+.banners-apoio-item-txt > span, .banners-apoio-item-txt > h3 {
+    color:var(--white);
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1024px) {
+    .banners-apoio-item-txt > h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banners-apoio-item-txt > h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .banners-apoio-item {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}

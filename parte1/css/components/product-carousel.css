@@ -1,0 +1,49 @@
+.carousel-item a {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.carousel-item figure img {
+    width: 100%;
+}
+
+.carousel-item figcaption {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--black);
+    margin-top: .5rem;
+}
+
+.carousel-wrapper {
+    margin-bottom: 5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.price-de, .price-por {
+    display: block;
+}
+
+.price-de {
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    color: #BBBBBB;
+    margin: .5rem 0;
+}
+
+.price-por {
+    font-size: 14px;
+    line-height: 16px;
+    color:var(--black)
+}
+
+.carousel-item {
+    margin: 0 15px;
+}
+
+.carousel-item a {
+    width: 100%;
+}

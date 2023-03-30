@@ -1,0 +1,21 @@
+#video .section-title {
+    color: var(--white);
+    margin-top: 0;
+}
+
+#video {
+    background-color: var(--dark-gray);
+    padding: 5rem 0;
+    text-align: center;
+    background-image: url('../../assets/images/secao-video-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 768px) {
+    #video iframe{
+        width: 95%;
+        height: 250px;
+        margin:auto;
+    }  
+}

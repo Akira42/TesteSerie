@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Template Glowshine</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="">
+	<link rel="icon" type="image/x-icon" href="">
+
+	<link rel="stylesheet" href="css/sources/reset.css">
+	<link rel="stylesheet" href="css/colors.css">
+	<link rel="stylesheet" href="css/fonts.css">
+
+	<link rel="stylesheet" href="css/sources/slick.css">
+	<link rel="stylesheet" href="css/sources/aos.css">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/footer.css">
+	
+
+	<link rel="stylesheet" href="css/components/home-fullbanner.css">
+	<link rel="stylesheet" href="css/components/cart-preview.css">
+	<link rel="stylesheet" href="css/components/banners-apoio.css">
+	<link rel="stylesheet" href="css/components/product-carousel.css">
+	<link rel="stylesheet" href="css/components/video.css">
+	<link rel="stylesheet" href="css/components/colecao.css">
+
+	<script src="js/jquery-3.6.4.min.js" type="text/javascript" defer></script>
+	
+	<script src="js/aos.js" type="text/javascript" defer></script>
+	<script src="js/slick.min.js" type="text/javascript" defer></script>
+	<script src="js/script.js" type="text/javascript" defer></script>
+	<script src="js/index.js" type="text/javascript" defer></script>
+	
+</head>
+
+<body>
+	<header id="header" class="">
+		<div class="faixa-topo">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+
+		<div class="container header-container">
+			<div id="main-menu-mobile" class="mobile-only">
+				<a id="hamburger-menu" href="javascript:;"><img src="assets/images/hamburgermenu.png"></a>
+	
+				<nav class="menu-mobile-wrapper menu-mob-hidden">
+					<ul>
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Lançamentos</a></li>
+						<li><a href="#">Born in Chaos</a></li>
+					</ul>
+				</nav>
+			</div>
+
+			<a href="/"><img src="assets/images/logo-seri.e.png" alt="Logo Seri.e"></a>
+
+			<nav id="main-menu">
+				<ul>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Lançamentos</a></li>
+					<li><a href="#">Born in Chaos</a></li>
+				</ul>
+			</nav>
+
+			<div class="header-interactions">
+				<form class="search-form">
+					<input type="submit" value="" class="search-submit">
+					<input type="text" class="search-input" placeholder="BUSCAR PRODUTO......">
+				</form>
+				
+				<div class="user-cart">
+					<a class="icon-user" href="#"><img src="assets/images/icon-user.svg" alt="Icone Usuário"></a>
+
+					<a class="icon-bag" href="javascript:;">
+						<img src="assets/images/icon-shopping-bag.svg" alt="Icone Usuário">
+					</a>
+					<span class="cart-qtd">99</span>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="cart-preview" class="cart-hidden">
+		<div class="cart-top">
+			<span><img src="assets/images/icon-shopping-bag.svg" alt="Icone sacola">Sua Sacola (99)</span>
+
+			<button id="close-cart"><img src="assets/images/closecart.svg" alt="Close Cart icon"></button>
+		</div>
+
+		<div class="cart-prods">
+			<div class="cart-product-item">
+				<img src="assets/images/product.png" alt="Produto Lorem Ipsum">
+
+				<div class="cart-product-infos-wrapper">
+					<div class="cart-product-title-wrapper">
+						<span class="cart-product-title">Lorem ipsum</span>
+						<span class="cart-product-qtd">Quantidade: 01</span>
+					</div>
+
+					<div class="cart-product-price-wrapper">
+						<span class="cart-product-price">R$ 1.598,00</span>
+
+						<a class="cart-product-delete" href="javascript:;"><img src="assets/images/trashcan.svg"></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="cart-product-item">
+				<img src="assets/images/product.png" alt="Produto Lorem Ipsum">
+
+				<div class="cart-product-infos-wrapper">
+					<div class="cart-product-title-wrapper">
+						<span class="cart-product-title">Lorem ipsum</span>
+						<span class="cart-product-qtd">Quantidade: 01</span>
+					</div>
+
+					<div class="cart-product-price-wrapper">
+						<span class="cart-product-price">R$ 1.598,00</span>
+
+						<a class="cart-product-delete" href="javascript:;"><img src="assets/images/trashcan.svg"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="cart-bottom">
+			<div class="cart-total">
+				<span class="cart-total-txt">Total a pagar:</span>
+
+				<span class="cart-total-price">R$ 598,00</span>
+			</div>
+
+			<div class="cart-total-btns">
+				<a class="proceed-to-checkout" href="javascript:;">Comprar</a>
+
+				<a class="back-to-store" href="javascript:;">Continuar Comprando</a>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<section id="home-fullbanner">
+			<a href="#" class="home-fullbanner-container">
+				<img src="assets/images/fullbanner.png" alt="">
+
+				<div class="fullbanner-txt">
+					<h1 data-aos="fade-down" data-aos-duration="500">Lorem Ipsum Dolor</h1>
+					
+					<span href="#" data-aos="fade-right" data-aos-duration="500">Acessar já</span>
+				</div>
+			</a>
+		</section>
+
+		<section id="banners-apoio">
+			<div class="banners-apoio-container">
+				<a href="#" class="banners-apoio-item">
+					<img src="assets/images/banner-apoio-1.png" alt="">
+
+					<div class="banners-apoio-item-txt">
+						<h3 data-aos="fade-down" data-aos-duration="500">Lorem Ipsum Dolor</h3>
+						
+						<span data-aos="fade-right" data-aos-duration="500">Acessar já</span>
+					</div>
+				</a>
+
+				<a href="#" class="banners-apoio-item">
+					<img src="assets/images/banner-apoio-2.png" alt="">
+
+					<div class="banners-apoio-item-txt">
+						<h3 data-aos="fade-down" data-aos-duration="500">Lorem Ipsum Dolor</h3>
+						
+						<span data-aos="fade-right" data-aos-duration="500">Acessar já</span>
+					</div>
+				</a>
+			</div>
+		</section>
+
+		<section id="carrossel-destaques" class="section-carousel">
+			<h2 class="section-title">Destaques</h2>
+
+			<div class="carousel-wrapper">
+
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="video">
+			<h2 class="section-title">#Youtube</h2>
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/WhnNYGSnv0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</section>
+
+		<section id="colecao">
+			<h2 class="section-title">Coleção</h2>
+
+			<div class="colecao-wrapper">
+				<img src="assets/images/colecao.png" alt="Banner Coleção">
+
+				<div class="colecao-txt">
+					<h3 >Lorem Ipsum Dolor</h3>
+					
+					<a href="#" >Acessar já</a>
+				</div>
+			</div>
+		</section>
+
+		<section id="carrossel-destaques-2" class="section-carousel">
+			<h2 class="section-title">Destaques</h2>
+
+			<div class="carousel-wrapper">
+
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+				<div class="carousel-item">
+					<a href="#">
+						<figure>
+							<img src="assets/images/product.png" alt="Imagem do produto Lorem Ipsum">
+
+							<figcaption>Lorem Ipsum</figcaption>
+						</figure>
+
+						<div class="prices">
+							<span class="price-de">R$ 1.598,00</span>
+
+							<span class="price-por">R$ 1.598,00</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div id="newsletter">
+			<div class="container">
+				<div class="newsletter-txt">
+					<h3>Newsletter</h3>
+
+					<p>Cadastre seu e-mail e receba <b>novidades!</b></p>
+				</div>
+
+				<form id="newsletter-form">
+					<input class="newsletter-field" type="text" placeholder="seu@email.com.br">
+
+					<input class="newsletter-submit" type="submit" value="Cadastrar">
+				</form>
+			</div>
+		</div>
+
+		<div id="footer">
+			<div id="whatsapp-flutuante">
+
+			</div>
+
+			<div class="footer-top">
+				<div class="container">
+					<a href="/" class="logo-footer">
+						<img src="assets/images/logo-serie-footer.png" alt="Logo Seri.e Design">
+					</a>
+
+					<div class="menu-footer-wrapper">
+						<ul class="menu-footer">
+							<li><h4>Precisa de ajuda?</h4></li>
+							<li><a href="#">Sobre</a></li>
+							<li><a href="#">Politicas da Loja</a></li>
+							<li><a href="#">Politicas de Privacidade</a></li>
+							<li><a href="#">Contato</a></li>
+						</ul>
+	
+						<ul class="menu-footer menu-footer-socials">
+							<li><h4>Redes Sociais</h4></li>
+							<li class="social-icons">
+								<a href="#"><img src="assets/images/instagram-footer.svg" alt="logo instagram"></a>
+								<a href="#"><img src="assets/images/facebook-footer.svg" alt="logo facebook"></a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="footer-bottom">
+				<div class="container">
+					<div class="footer-bottom-logos">
+						<a href="#"><img src="assets/images/logo-fbits-branco.png" alt="Logo Tray Corp by FBits"></a>
+
+						<a href="#"><img src="assets/images/logo-serie-white.png" alt="Logo Seri.e Design"></a>
+					</div>
+
+					<div class="footer-bottom-copy">
+						<span>@2023 Todos os direitos reservados</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
+
